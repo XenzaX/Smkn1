@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: #828282;
+    font-family: 'Poppins', sans-serif;
+    color: #202020;
+    font-size: 14px;
+}
+.form-control{
+    font-size: 14px;
+}
+@media screen and (min-width: 994px) {
+.form-control{
+    width: 350px;
+}
+}
+@media screen and (max-width: 994px) {
+.navbar-nav{
+  text-align: center;
+}
+}
+.carousel-item img{
+    border: 3px solid #202020;
+    width: 1200px;
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+}
